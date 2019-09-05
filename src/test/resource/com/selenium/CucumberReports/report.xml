@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="67.853266">
+<testcase classname="Automation Practice End to End Test automation scenario" name="User opens the automation practise home page" time="25.237409">
+<system-out><![CDATA[Given User hit the Automation practice website..............................passed
+Then User verifies the site logo............................................passed
+And User verifies the page title............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify user login the application with valid credentials" time="10.228394">
+<system-out><![CDATA[When User click on Signin Button in Header..................................passed
+And User enter the email id.................................................passed
+And User enter the password.................................................passed
+And User click on Login Button in the Login Page............................passed
+Then User verifies the Username present in the header.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="User selects the dress to add to cart" time="13.778202">
+<system-out><![CDATA[When User moves the mouse to the women......................................passed
+And User click on evening dress.............................................passed
+And User place the mouse pointer on evening dress image.....................passed
+Then User checks whether 'There is 1 product.' word is present at the top of the content page.passed
+And User click on the more option...........................................passed
+And User click on the add to cart option....................................passed
+Then User check for 'demo_4' word is present at the top of the content page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="User proceeds further to checkout" time="6.16303">
+<system-out><![CDATA[When User click on the frame to select the options..........................passed
+Then User verifies whether the word 'Printed Dress' is present in the frame.passed
+And User click on the proceed to checkout...................................passed
+Then User verifies whether the word 'In stock' is present...................passed
+And User click on the proceed to checkout in the summary page...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="User checks for the delivery address" time="5.130063">
+<system-out><![CDATA[When User click on the proceed to checkout in the address page..............passed
+Then User verfies for the word 'Terms of ser' is present in the content page.passed
+And User click on the checkbox..............................................passed
+And User click on proceed to checkout in the shipping page..................passed
+Then User verifies for the word 'Please choose your payment method' is present in the content page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="User proceeds to payment" time="7.316168">
+<system-out><![CDATA[When User click on pay by check option......................................passed
+And User click on sign out button present in the header.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
